@@ -1,0 +1,66 @@
+.samurai1 {
+    background-image: url("samurai1.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+.samurai2 {
+    background-image: url("./samurai2.jpg");
+    background-size:400px;
+    width:400px;
+    height:200px;
+}
+
+p{
+    color:darkgray;
+}
+
+.samurai3 {
+    background-color: black;
+    background-size: 150px;
+    width: 600px;
+    height: 300px;
+    vertical-align: top;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+.bg {
+    background-image: url("samurai4.jpg");
+    background-size: 150px;
+    vertical-align: top;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+.samurai4 {
+    background-image: url("./samurai4.jpg");
+    background-size: 100px;
+    width: 400px;
+    height:70px;
+    background-repeat: repeat-x;
+}
+
+.lorem {
+    background-image: url("./samurai4.jpg");
+    background-size: 150px;
+    color: darkgray;
+    width: 50%;
+    height: 100px;
+    vertical-align: top;
+    text-align: right;
+    background-position: right;
+}
+
+.lorem1 {
+    background-image: url("./samurai4.jpg");
+    background-size: 150px;
+    color: darkgray;
+    width: 50%;
+    height: 100px;
+    vertical-align: top;
+    text-align: left;
+    background-position: left;
+}
