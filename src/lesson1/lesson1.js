@@ -1,6 +1,6 @@
 import React from 'react';
-import'./mayilyan.css'
-function App() {
+import'./lesson1.css'
+function Lesson1() {
   return (
       <table className={"samurai1"}>
           <tr>
@@ -71,4 +71,4 @@ function App() {
   );
 }
 
-export default App;
+export default Lesson1;
