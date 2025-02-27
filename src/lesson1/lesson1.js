@@ -1,5 +1,5 @@
 import React from 'react';
-import'./lesson1.css'
+// import'./lesson1.css'
 function Lesson1() {
   return (
       <table className={"samurai1"}>
