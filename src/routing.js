@@ -8,6 +8,8 @@ import Lesson5 from "./lesson5/lesson5";
 import Lesson6 from "./lesson6/lesson6";
 import Lesson7 from "./lesson7/lesson7";
 import Lesson8 from "./lesson8/lesson8";
+import Lesson9 from "./lesson9/lesson9";
+import Lesson10 from "./lesson10/lesson10";
 
 const Routing = () => {
     return (
@@ -22,6 +24,8 @@ const Routing = () => {
                     <Route path="/lesson6" element={<Lesson6/>} />
                     <Route path="/lesson7" element={<Lesson7/>} />
                     <Route path="/lesson8" element={<Lesson8/>} />
+                    <Route path="/lesson9" element={<Lesson9/>} />
+                    <Route path="/lesson10" element={<Lesson10/>} />
                 </Routes>
             </BrowserRouter>
         </div>
