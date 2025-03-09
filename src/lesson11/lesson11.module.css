@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.dinamik1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.dinamik2 {
+    background-color: #0e62ae;
+    width: 800px;
+}
+
+
+.dinamik3 {
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+
+.dinamik4 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 35px 0;
+}
+
+
+.dinamik5 {
+    color: white;
+    transition: 0.5s;
+}
+
+
+.dinamik5:hover {
+    color: #8f8a8a;
+}
+
+
+
+.dinamik6 {
+    padding: 0 35px;
+}
+
+
+.dinamik7 {
+    background-image: url("../assets/images/nkar.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 388px;
+}
+
+
+.lorem1 {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+}
+
+
+.lorem2 {
+    width: 100%;
+    height: 50%;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+
+.lorem3 {
+    padding: 20px 33px;
+}
+
+
+.lorem4 {
+    background-color: dimgrey;
+    width: 100%;
+    height: 60%;
+
+}
+.jpg {
+    background-image: url("../assets/images/face.jpg");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.lorem5 {
+    display: flex;
+    height: 250px;
+}
+
+
+.for1 {
+    font-size: 14px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.for2 {
+    padding: 0 40px;
+}
+
+
+.for3 {
+    font-size: 14px;
+    color: white;
+    padding: 15px;
+}
+
+
+.for4 {
+    background-image: url("../assets/images/face.jpg");
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+}
+
+
+.for5 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+h3 {
+    color: white;
+}
+
+
+.for6 {
+    width: 200px;
+}
+
+
+.form1 {
+    padding: 20px 30px;
+}
+
+
+.kochak {
+    color: black;
+    transition: 0.5s;
+}
+
+.kochak:hover {
+    color: darkgrey;
+}
+
+.flex {
+    display: flex;
+}
+
+
+ul {
+    list-style-image: url("../assets/images/marker.png");
+}
+
+
+.verj {
+    display: flex;
+    justify-content: center;
+    color: white;
+}

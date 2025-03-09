@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heder {
+    height: 20px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid white;
+}
+
+.heder1 {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    background-image: url("../assets/images/samurai6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 20px);
+    overflow: auto;
+}
+
+.chap {
+    width: 1500px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.travel1 {
+    padding: 30px 0;
+}
+
+.travel2 {
+    color: white;
+}
+
+.home {
+    background-color: darkgrey;
+    padding: 20px ;
+    gap: 30px;
+    display: flex;
+}
+
+.flex {
+    display: flex;
+    gap: 35px;
+}
+
+.fc{
+    background-image: url("../assets/images/logo.jpg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: -15px;
+    background-size: 303px;
+    background-position: -35px -81px;
+    transition: 0.5s;
+}
+
+.fc:hover {
+    background-position: -35px -33px;
+}
+
+.twitter {
+    background-image: url("../assets/images/logo.jpg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: -15px;
+    background-size: 303px;
+    background-position: -81px -81px;
+    transition: 0.5s;
+}
+
+.twitter:hover {
+    background-position: -81px -34px;
+}
+
+.whatsapp {
+    background-image: url("../assets/images/logo.jpg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: -15px;
+    background-size: 303px;
+    background-position: -127px -85px;
+    transition: 0.5s;
+}
+
+.whatsapp:hover {
+    background-position: -127px -34px;
+}
+
+.instagram {
+    background-image: url("../assets/images/logo.jpg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: -15px;
+    background-size: 303px;
+    background-position:-174px -84px;
+    transition: 0.5s;
+}
+
+.instagram:hover {
+    background-position: -174px -34px;
+}
+
+.pat {
+    display: flex;
+    padding: 15px 0;
+    gap: 10px;
+}
+
+.nkar {
+    background-image: url("../assets/images/samurai4.jpg");
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    width: 139px;
+    height: 139px;
+    border-radius: 2px;
+}
+
+.text1 {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.text2 {
+    color: #ffffff;
+    width: 132px;
+    font-size: 14px;
+}
+.dolar {
+    font-size: 20px;
+    color: white;
+}
+
+.button {
+    display: flex;
+    gap: 50px;
+    padding: 6px 0;
+}
+
+.nkar1{
+    padding: 10px 0;
+}
+
+.footer {
+    height: 20px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid white;
+}
+
+.footer1 {
+    color: white;
+}

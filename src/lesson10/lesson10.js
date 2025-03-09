@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from "./lesson10.module.css"
+// import classes from "./lesson10.module.css"
 const Lesson10 = () => {
     return (
         <div className={classes.color}>
