@@ -12,6 +12,7 @@ import Lesson9 from "./lesson9/lesson9";
 import Lesson10 from "./lesson10/lesson10";
 import Lesson11 from "./lesson11/lesson11";
 import Lesson12 from "./lesson12/lesson12";
+import Lesson13 from "./lesson13/lesson13";
 
 const Routing = () => {
     return (
@@ -30,6 +31,7 @@ const Routing = () => {
                     <Route path="/lesson10" element={<Lesson10/>} />
                     <Route path="/lesson11" element={<Lesson11/>} />
                     <Route path="/lesson12" element={<Lesson12/>} />
+                    <Route path="/lesson13" element={<Lesson13/>} />
                 </Routes>
             </BrowserRouter>
         </div>

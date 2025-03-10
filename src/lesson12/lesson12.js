@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from "./lesson12.module.css"
+// import classes from "./lesson12.module.css"
 const Lesson12 = () => {
     return (
         <div>
