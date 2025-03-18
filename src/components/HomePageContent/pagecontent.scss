@@ -1,0 +1,16 @@
+.homeContent {
+  height: calc(100vh - 101px);
+  background: white;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #8a8787;
+  .itemsWrapper {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+  }
+}

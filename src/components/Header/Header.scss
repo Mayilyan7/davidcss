@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  gap: 7px;
+  padding: 9px 7px;
+  justify-content: center;
+  background: darkgray;
+  ul{
+    display: flex;
+    list-style: none;
+    gap:7px;
+  }
+  a{
+    display: flex;
+    background: #8c8686;
+    align-items: center;
+    color: white;
+    padding: 0 16px;
+    height: 43px;
+    text-decoration: none;
+    position: relative;
+    transition: 0.9s;
+    gap: 10px;
+    border-radius: 5px;
+    &:hover{
+      .page{
+        display: flex;
+      }
+    }
+    .page {
+      flex-direction: column;
+      gap: 3px;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      z-index: 1;
+      display: none;
+      padding: 11px 0;
+      .pageLink{
+        display: flex;
+        width: 100%;
+        height: 35px;
+        justify-content: center;
+        align-items: center;
+        background: #3a3a3a;
+      }
+    }
+  }
+}
+
+a:hover {
+  background: #8c8686;
+  border-radius: 15px;
+  color: #d8d8d8;
+}
