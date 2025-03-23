@@ -1,11 +1,11 @@
 import React from 'react';
+import Lesson1 from "../components/Lesson1/Lesson1";
 
-import HomePageContent from "../components/HomePageContent/HomePageContent";
 
 const HomePage = () => {
     return (
         <div>
-            <HomePageContent />
+            <Lesson1 />
         </div>
     );
 };

@@ -1,0 +1,35 @@
+.header {
+  width: 800px;
+  background-color: rgba(140, 134, 134, 0);
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo1 {
+  width: 70px;
+}
+
+.child1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo2 {
+  width: 30px;
+  display: flex;
+
+}

@@ -1,0 +1,26 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  background-color: #8c8686;
+  width: 800px;
+  justify-content: space-around;
+}
+
+.home {
+  width: 50px;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gic {
+  text-decoration: none;
+  color: white;
+}
