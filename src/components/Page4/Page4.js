@@ -7,16 +7,56 @@ const Page4 = () => {
         <div className={'page4'}>
             <div className={'new'}>
                 <div>
-                    <p>New Technologies</p>
+                    <p className={'text2'}>
+                        New Technologies
+                    </p>
                     <img src={mirg3} className={'nkar'}/>
-                    <p>Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry.</p>
-                    <input type={"button"} value={'Read More'}/>
+                    <p className={'text3'}>
+                        Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.
+                    </p>
+                    <input type={"button"} value={'Read More'} className={'button'}/>
                 </div>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className={'new'}>
+                <div>
+                    <p className={'text2'}>
+                        New Technologies
+                    </p>
+                    <img src={mirg3} className={'nkar'}/>
+                    <p className={'text3'}>
+                        Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.
+                    </p>
+                    <input type={"button"} value={'Read More'} className={'button'}/>
+                </div>
+            </div>
+            <div className={'new'}>
+                <div>
+                    <p className={'text2'}>
+                        New Technologies
+                    </p>
+                    <img src={mirg3} className={'nkar'}/>
+                    <p className={'text3'}>
+                        Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.
+                    </p>
+                    <input type={"button"} value={'Read More'} className={'button'}/>
+                </div>
+            </div>
+            <div className={'new'}>
+                <div>
+                    <p className={'text2'}>
+                        New Technologies
+                    </p>
+                    <img src={mirg3} className={'nkar'}/>
+                    <p className={'text3'}>
+                        Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.
+                    </p>
+                    <input type={"button"} value={'Read More'} className={'button'}/>
+                </div>
+            </div>
         </div>
     );
 };

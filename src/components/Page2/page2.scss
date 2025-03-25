@@ -6,8 +6,11 @@
 
 .page2 {
   background-color: darkgray;
-  width: 800px;
+  width: 100%;
   height: 40px;
   display: flex;
   align-items: center;
+  @media only screen and (max-width: 800px) {
+    width: 400px;
+  }
 }

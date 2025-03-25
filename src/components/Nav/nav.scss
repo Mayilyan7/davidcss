@@ -1,12 +1,15 @@
 .container1 {
   display: flex;
   justify-content: center;
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
 }
 
 .nav {
   display: flex;
   background-color: #8c8686;
-  width: 800px;
+  width: 100%;
   justify-content: space-around;
 }
 

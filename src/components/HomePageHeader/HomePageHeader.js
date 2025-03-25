@@ -4,6 +4,7 @@ import AppleLogo from '../../assets/images/AppleLogo.png';
 import FacebookLogo from '../../assets/images/FacebookLogo.png';
 import GmailLoigo from '../../assets/images/GmailLoigo.png';
 import InstagramLogo from '../../assets/images/InstagramLogo.png';
+import Gic from '../../assets/images/gic.png';
 
 const HomePageHeader = () => {
     return (
@@ -22,6 +23,9 @@ const HomePageHeader = () => {
                     </div>
                     <div>
                         <img src={GmailLoigo} className={"logo2"} />
+                    </div>
+                    <div>
+                        <img src={Gic} className={"logo3"} />
                     </div>
                 </div>
             </div>
