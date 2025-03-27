@@ -1,0 +1,28 @@
+.radio {
+  display: flex;
+  border: 1px solid white;
+  gap: 279px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.card {
+  display: flex;
+  border: 1px solid white;
+  gap: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+
+.visa {
+  width: 40px;
+}
+
+.amex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

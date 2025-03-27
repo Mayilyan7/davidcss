@@ -24,9 +24,9 @@ const HomePageHeader = () => {
                     <div>
                         <img src={GmailLoigo} className={"logo2"} />
                     </div>
-                    <div>
-                        <img src={Gic} className={"logo3"} />
-                    </div>
+                </div>
+                <div>
+                    <img src={Gic} className={"logo3"} />
                 </div>
             </div>
         </div>
