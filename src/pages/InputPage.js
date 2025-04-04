@@ -1,5 +1,5 @@
 import React from 'react';
-import Lesson2 from "../components2/Lesson2/Lesson2";
+import Lesson2 from "../Lesson2/Lesson2/Lesson2";
 
 
 const InputPage = () => {

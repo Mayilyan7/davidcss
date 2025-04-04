@@ -1,5 +1,5 @@
 import React from 'react';
-import Lesson1 from "../components/Lesson1/Lesson1";
+import Lesson1 from "../Lesson1/Lesson1/Lesson1";
 
 
 const HomePage = () => {
